@@ -1,0 +1,107 @@
+@font-face {
+  font-family: "Basement Grotesque";
+  src: url("/fonts/BasementGrotesque.woff2") format("woff2"),
+    url("/fonts/BasementGrotesque.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --bg: #073317;
+  --bg-light: #8fe91c;
+  --light: #ffff;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+ul,
+li,
+ul[role="list"],
+ol[role="list"] {
+  list-style: none;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+  /* inherit size, family, weight, line-height */
+  color: inherit;
+  /* inherit text color */
+  background: none;
+  /* optional: remove UA background */
+  border: none;
+  /* optional: remove UA border */
+  padding: 0;
+  /* optional: reset spacing */
+}
+
+body {
+  width: 100vw;
+  /* RESPONSIVE HEIGHT FALLBACK for iOS tool bar */
+  min-height: 100vh;
+  min-height: 100svh;
+  min-height: -webkit-fill-available;
+  text-rendering: optimizeSpeed;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: "Basement Grotesque", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--light);
+  overflow-x: hidden;
+}
+
+html {
+  /* RESPONSIVE HEIGHT FALLBACK for iOS tool bar */
+  height: -webkit-fill-available;
+  scroll-behavior: smooth;
+  background: var(--bg);
+}
+
+a:not([class]) {
+  text-decoration: none;
+  text-decoration-skip-ink: auto;
+}
+
+a:visited {
+  color: none;
+}
+
+/* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+  html:focus-within {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

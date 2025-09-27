@@ -1,0 +1,54 @@
+.container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: var(--light-green);
+  z-index: 0;
+  opacity: 0;
+  transform: translateY(-64px);
+  transition: 300ms var(--easing);
+  transition-property: opacity, transform;
+
+  @media (min-width: 768px) {
+    display: none;
+  }
+}
+
+.active {
+  opacity: 1;
+  transform: translateY(0px);
+
+  & .wrapper {
+    & a {
+      opacity: 1;
+      transform: translateY(0px);
+      transition: 300ms var(--easing);
+    }
+  }
+  & a:first-child {
+    transition-delay: 50ms;
+  }
+  & a:last-child {
+    transition-delay: 75ms;
+  }
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-s);
+  margin-top: calc(var(--space-ml) * 2);
+  padding: var(--space-ml);
+
+  & a {
+    opacity: 0;
+    transform: translateY(-16px);
+    transition: 300ms var(--easing);
+    transition-property: opacity, transform;
+  }
+
+  & a:visited {
+    color: inherit;
+  }
+}

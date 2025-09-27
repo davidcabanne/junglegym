@@ -1,0 +1,15 @@
+.container {
+  width: auto;
+  height: 100%;
+}
+
+.header {
+  height: var(--header-h);
+  min-width: 186px;
+  z-index: 999;
+
+  @media (max-width: 768px) {
+    height: 48px;
+    min-width: 94px;
+  }
+}

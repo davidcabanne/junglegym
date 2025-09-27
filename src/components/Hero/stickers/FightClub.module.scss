@@ -1,0 +1,42 @@
+.container {
+  position: absolute;
+  // left: 63.58%;
+  right: 24.77%;
+  top: 65.09%;
+  // bottom: 17.24%;
+  width: 100px;
+  aspect-ratio: 1 / 0.8;
+  pointer-events: none;
+
+  transition: 200ms var(--easing);
+  transition-property: width, left, right, top, bottom;
+
+  /* Floating + rotation animation */
+  animation: floatSticker 10s ease-in-out infinite;
+
+  @media (max-width: 768px) {
+    width: 58px;
+    // left: 55.99%;
+    right: 15.7%;
+    top: 43.75%;
+    // bottom: 43.67%;
+  }
+}
+
+@keyframes floatSticker {
+  0% {
+    transform: translate(0px, 0px) rotate(0deg);
+  }
+  25% {
+    transform: translate(-3px, 2px) rotate(-1.5deg);
+  }
+  50% {
+    transform: translate(3px, -2px) rotate(3deg);
+  }
+  75% {
+    transform: translate(6px, -5px) rotate(-2deg);
+  }
+  100% {
+    transform: translate(0px, 0px) rotate(0deg);
+  }
+}

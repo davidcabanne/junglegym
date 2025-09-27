@@ -1,0 +1,44 @@
+/* COLORS */
+:root {
+  --light: #ffffff;
+  --dark-green: #073317;
+  --light-green: #8fe91c;
+
+  /* SPACING */
+  --space-xs: 8px;
+  --space-s: 16px;
+  --space-m: 32px;
+  --space-ml: 40px;
+  --space-l: 64px;
+  --space-xl: 128px;
+
+  /* SIZES */
+  --header-h: 80px;
+  --max-w: 1980px;
+
+  /* DEVICE SIZES */
+  --mobile-s: 320px;
+  --mobile-m: 375px;
+  --mobile-l: 425px;
+  --tablet: 768px;
+  --laptop: 1024px;
+  --laptopL: 1440px;
+  --desktop: 2560px;
+
+  /* ANIMATION */
+  --easing: cubic-bezier(0.79, 0.14, 0.15, 0.86);
+
+  /* SHADOWS */
+  --shadow-card-xs: 0 2px 5px -1px rgba(50, 50, 93, 0.25),
+    0 1px 3px -1px rgba(0, 0, 0, 0.3);
+  --shadow-card-sm: 0 6px 12px -2px rgba(50, 50, 93, 0.25),
+    0 3px 7px -3px rgba(0, 0, 0, 0.3);
+  --shadow-card-md: 0 13px 27px -5px rgba(50, 50, 93, 0.25),
+    0 8px 16px -8px rgba(0, 0, 0, 0.3);
+  --shadow-card-lg: 0 30px 60px -12px rgba(50, 50, 93, 0.25),
+    0 18px 36px -18px rgba(0, 0, 0, 0.3);
+  --shadow-card-lg-inset: inset 0 30px 60px -12px rgba(50, 50, 93, 0.25),
+    inset 0 18px 36px -18px rgba(0, 0, 0, 0.3);
+  --shadow-card-xl: 0 50px 100px -20px rgba(50, 50, 93, 0.25),
+    0 30px 60px -30px rgba(0, 0, 0, 0.3);
+}

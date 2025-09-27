@@ -1,0 +1,24 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: var(--space-m);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0.1) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  border: 2px solid #ffffff;
+  backdrop-filter: blur(5px);
+  border-radius: 40px;
+  padding: 0 var(--space-ml);
+
+  & li {
+    white-space: nowrap;
+    text-transform: uppercase;
+  }
+
+  @media (max-width: 1256px) {
+    display: none;
+  }
+}

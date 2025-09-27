@@ -1,0 +1,32 @@
+.container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: var(--header-h);
+  margin-top: var(--header-h);
+  padding: 0 var(--header-h);
+  display: flex;
+  justify-content: space-between;
+  gap: var(--space-m);
+  flex-wrap: wrap;
+
+  @media (max-width: 768px) {
+    height: var(--space-ml);
+    gap: var(--space-s);
+    margin-top: var(--space-ml);
+    padding: 0 var(--space-ml);
+
+    // Call to action
+    & a:nth-child(3) {
+      display: none;
+    }
+  }
+
+  @media (max-width: 425px) {
+    height: var(--space-s);
+    gap: var(--space-s);
+    margin-top: var(--space-s);
+    padding: 0 var(--space-s);
+  }
+}
