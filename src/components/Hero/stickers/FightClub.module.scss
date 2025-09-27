@@ -28,13 +28,13 @@
     transform: translate(0px, 0px) rotate(0deg);
   }
   25% {
-    transform: translate(-3px, 2px) rotate(-1.5deg);
+    transform: translate(3px, -2px) rotate(1.5deg);
   }
   50% {
-    transform: translate(3px, -2px) rotate(3deg);
+    transform: translate(-3px, 2px) rotate(-3deg);
   }
   75% {
-    transform: translate(6px, -5px) rotate(-2deg);
+    transform: translate(-6px, 5px) rotate(2deg);
   }
   100% {
     transform: translate(0px, 0px) rotate(0deg);

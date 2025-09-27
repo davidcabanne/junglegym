@@ -9,6 +9,12 @@
   padding: 0 var(--space-ml);
   border-radius: 1000px;
 
+  @media (min-width: 768px) {
+    &:hover {
+      transform: scale(1.05);
+    }
+  }
+
   @media (max-width: 768px) {
     height: 48px;
     padding: 0 var(--space-m);
@@ -19,18 +25,39 @@
 .lightGreen {
   background: var(--light-green);
   color: var(--dark-green);
+
+  &:link,
+  &:visited {
+    color: var(--dark-green);
+  }
 }
 
 .darkGreen {
   background: var(--dark-green);
   color: var(--light);
+
+  &:link,
+  &:visited {
+    color: var(--light);
+  }
 }
 
 .light {
   background: var(--light);
   color: var(--dark-green);
+
+  &:link,
+  &:visited {
+    color: var(--dark-green);
+  }
 }
 
 .mobileMenu {
   background: var(--dark-green);
+  color: var(--light);
+
+  &:link,
+  &:visited {
+    color: white;
+  }
 }

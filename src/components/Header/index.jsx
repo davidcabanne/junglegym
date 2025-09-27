@@ -31,7 +31,10 @@ const Header = () => {
     <header className={styles.container}>
       <Logo header />
       <SportMenu />
-      <CallToAction color="lightGreen" href="/">
+      <CallToAction
+        color="lightGreen"
+        href="https://docs.google.com/forms/d/e/1FAIpQLScDdcDpIJf1UPcmDsHExsxG-LNnlxVxIlyX8mu9Qm-TR6xaSA/viewform"
+      >
         Pré-Inscription
       </CallToAction>
       <Burger handleToggleMenu={handleToggleMenu} isMenuOpen={isMenuOpen} />

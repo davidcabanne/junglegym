@@ -6,7 +6,10 @@ const MobileMenu = ({ isMenuOpen }) => {
   return (
     <div className={`${styles.container} ${isMenuOpen ? styles.active : ""}`}>
       <div className={styles.wrapper}>
-        <CallToAction mobileMenu href="/">
+        <CallToAction
+          mobileMenu
+          href="https://docs.google.com/forms/d/e/1FAIpQLScDdcDpIJf1UPcmDsHExsxG-LNnlxVxIlyX8mu9Qm-TR6xaSA/viewform"
+        >
           Pré-inscription
         </CallToAction>
         <CallToAction

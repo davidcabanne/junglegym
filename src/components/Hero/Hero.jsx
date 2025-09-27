@@ -4,6 +4,7 @@ import Palm from "./stickers/Palm";
 import Pear from "./stickers/Pear";
 import FightClub from "./stickers/FightClub";
 import AllIn from "./stickers/AllIn";
+import Eat from "./stickers/Eat";
 
 const Hero = () => {
   return (
@@ -15,6 +16,7 @@ const Hero = () => {
       <Pear />
       <FightClub />
       <AllIn />
+      <Eat />
     </div>
   );
 };
