@@ -10,11 +10,14 @@ import CallToAction from "../common/CallToAction";
 import Burger from "./Burger";
 import MobileMenu from "./MobileMenu";
 
+import { useContext } from "react";
+import { MouseContext } from "../../context/MouseContext";
 import useWindowWidth from "@/hooks/useWindowWidth";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
+  const { cursorChangeHandler } = useContext(MouseContext);
   const innerWidth = useWindowWidth();
 
   useEffect(() => {
@@ -29,7 +32,12 @@ const Header = () => {
 
   return (
     <header className={styles.container}>
-      <a href="/">
+      <a
+        href="/"
+        onMouseEnter={() => cursorChangeHandler("hovered")}
+        onMouseLeave={() => cursorChangeHandler("")}
+        style={{ zIndex: 9999 }}
+      >
         <Logo header />
       </a>
       <SportMenu />

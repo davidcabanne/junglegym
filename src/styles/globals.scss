@@ -72,6 +72,12 @@ body {
   font-weight: 700;
   color: var(--light);
   overflow-x: hidden;
+
+  cursor: none;
+
+  @media (max-width: 768px) {
+    cursor: auto !important;
+  }
 }
 
 html {

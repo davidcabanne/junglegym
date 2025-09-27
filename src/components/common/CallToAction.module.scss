@@ -5,7 +5,8 @@
   align-items: center;
   text-decoration: none;
   text-transform: uppercase;
-  cursor: pointer;
+  // cursor: pointer;
+  cursor: none;
   padding: 0 var(--space-m);
   border-radius: 1000px;
 
@@ -19,6 +20,8 @@
   }
 
   @media (max-width: 768px) {
+    cursor: pointer;
+
     height: 48px;
     padding: 0 var(--space-m);
   }

@@ -16,7 +16,7 @@
   & li {
     white-space: nowrap;
     text-transform: uppercase;
-    cursor: pointer;
+    cursor: none;
 
     &:hover {
       color: var(--light-green);
