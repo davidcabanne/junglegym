@@ -7,6 +7,7 @@
   height: var(--header-h);
   min-width: 186px;
   z-index: 999;
+  cursor: pointer;
 
   @media (max-width: 768px) {
     height: 48px;

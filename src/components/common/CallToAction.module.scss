@@ -6,8 +6,11 @@
   text-decoration: none;
   text-transform: uppercase;
   cursor: pointer;
-  padding: 0 var(--space-ml);
+  padding: 0 var(--space-m);
   border-radius: 1000px;
+
+  transition: 150ms var(--easing);
+  transition-property: transform;
 
   @media (min-width: 768px) {
     &:hover {

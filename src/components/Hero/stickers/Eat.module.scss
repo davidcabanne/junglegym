@@ -9,6 +9,7 @@
 
   /* Floating + rotation animation */
   animation: floatSticker 8s ease-in-out infinite;
+  animation-delay: 3s;
 
   @media (max-width: 768px) {
     display: block;

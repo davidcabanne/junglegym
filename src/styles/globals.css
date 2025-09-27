@@ -68,7 +68,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-family: "Basement Grotesque", sans-serif;
-  font-size: 16px;
+  font-size: 12px;
   font-weight: 700;
   color: var(--light);
   overflow-x: hidden;

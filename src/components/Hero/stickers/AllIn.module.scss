@@ -14,6 +14,7 @@
 
   /* Floating + rotation animation */
   animation: floatSticker 8s ease-in-out infinite;
+  animation-delay: 2s;
 
   @media (max-width: 768px) {
     width: 110px;

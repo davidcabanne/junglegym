@@ -29,7 +29,9 @@ const Header = () => {
 
   return (
     <header className={styles.container}>
-      <Logo header />
+      <a href="/">
+        <Logo header />
+      </a>
       <SportMenu />
       <CallToAction
         color="lightGreen"
