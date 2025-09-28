@@ -5,7 +5,7 @@
   top: 65.09%;
   // bottom: 17.24%;
   width: 100px;
-  aspect-ratio: 1 / 0.8;
+  aspect-ratio: 608 / 542;
   pointer-events: none;
 
   transition: 200ms var(--easing);
@@ -16,7 +16,7 @@
   animation-delay: 1s;
 
   @media (max-width: 768px) {
-    width: 58px;
+    width: 72px;
     // left: 55.99%;
     right: 15.7%;
     top: 43.75%;

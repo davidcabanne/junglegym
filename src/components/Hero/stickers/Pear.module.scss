@@ -5,7 +5,7 @@
   top: 47.9%;
   // bottom: 28.34%;
   width: 250px;
-  aspect-ratio: 194.07 / 265.48;
+  aspect-ratio: 664 / 909;
   pointer-events: none;
 
   transition: 200ms var(--easing);
@@ -15,7 +15,7 @@
   animation: floatSticker 5s ease-in-out infinite;
 
   @media (max-width: 768px) {
-    width: 110px;
+    width: 128px;
     // left: 84.43%;
     right: 4.54%;
     top: 47.9%;

@@ -1,5 +1,5 @@
 import Image from "next/image";
-import sticker from "../../../../public/images/stickers/stickerFightClub.png";
+import sticker from "../../../../public/images/stickers/JGAST03.png";
 
 import styles from "./FightClub.module.scss";
 

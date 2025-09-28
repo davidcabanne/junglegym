@@ -1,5 +1,5 @@
 import Image from "next/image";
-import sticker from "../../../../public/images/stickers/stickerPear.png";
+import sticker from "../../../../public/images/stickers/JGAST05.png";
 
 import styles from "./Pear.module.scss";
 

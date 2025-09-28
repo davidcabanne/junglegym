@@ -1,5 +1,5 @@
 import Image from "next/image";
-import sticker from "../../../../public/images/stickers/stickerPalm.png";
+import sticker from "../../../../public/images/stickers/JGAST04.png";
 
 import styles from "./Palm.module.scss";
 

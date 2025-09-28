@@ -1,5 +1,5 @@
 import Image from "next/image";
-import sticker from "../../../../public/images/stickers/stickerAllIn.png";
+import sticker from "../../../../public/images/stickers/JGAST02.png";
 
 import styles from "./AllIn.module.scss";
 

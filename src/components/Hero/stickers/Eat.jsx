@@ -1,5 +1,5 @@
 import Image from "next/image";
-import sticker from "../../../../public/images/stickers/stickerEat.png";
+import sticker from "../../../../public/images/stickers/JGAST01.png";
 
 import styles from "./Eat.module.scss";
 
