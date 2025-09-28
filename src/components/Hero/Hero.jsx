@@ -9,9 +9,11 @@ import Eat from "./stickers/Eat";
 const Hero = () => {
   return (
     <div className={styles.container}>
-      <div style={{ color: "var(--light-green)" }}>OUVERTURE PROCHAINE</div>
-      <div>DE LA JUNGLE GYM</div>
-      <div>Academy</div>
+      <div style={{ color: "var(--light-green)", zIndex: -1 }}>
+        OUVERTURE PROCHAINE
+      </div>
+      <div style={{ zIndex: -1 }}>DE LA JUNGLE GYM</div>
+      <div style={{ zIndex: -1 }}>Academy</div>
       <Palm />
       <Pear />
       <FightClub />

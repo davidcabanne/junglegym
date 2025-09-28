@@ -8,7 +8,6 @@
   margin-top: var(--header-h);
 
   @media (max-width: 768px) {
-    align-items: flex-start;
     margin-top: var(--header-ml);
   }
 
@@ -26,7 +25,6 @@
     vertical-align: middle;
 
     @media (max-width: 768px) {
-      text-align: left;
       font-size: clamp(32px, 5vw, 48px);
     }
   }

@@ -11,6 +11,8 @@ const CallToAction = ({ children, color, href, mobileMenu }) => {
   return (
     <a
       href={href}
+      target="_blank"
+      rel="noopener noreferrer"
       className={`${styles.container} ${styles[color]} ${
         mobileMenu ? styles.mobileMenu : ""
       }`}

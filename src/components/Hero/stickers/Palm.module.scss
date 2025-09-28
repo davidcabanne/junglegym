@@ -4,9 +4,10 @@
   // right: 76.99%;
   top: 57.39%;
   // bottom: 17.24%;
-  width: 250px;
+  width: 188px;
   aspect-ratio: 808 / 970;
   pointer-events: none;
+  z-index: -1;
 
   transition: 200ms var(--easing);
   transition-property: width, left, right, top, bottom;
