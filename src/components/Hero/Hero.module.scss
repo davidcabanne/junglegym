@@ -8,8 +8,8 @@
   margin-top: var(--header-h);
 
   @media (max-width: 768px) {
-    margin-top: var(--header-ml);
     align-items: flex-start;
+    margin-top: var(--header-ml);
   }
 
   @media (max-width: 425px) {
@@ -17,7 +17,7 @@
   }
 
   & div {
-    font-size: clamp(40px, 5vw, 64px);
+    font-size: clamp(48px, 5vw, 64px);
     font-weight: 800;
     text-transform: uppercase;
     line-height: 100%;
@@ -26,8 +26,8 @@
     vertical-align: middle;
 
     @media (max-width: 768px) {
-      font-size: clamp(24px, 5vw, 40px);
       text-align: left;
+      font-size: clamp(32px, 5vw, 48px);
     }
   }
 }
