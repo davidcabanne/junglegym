@@ -3,23 +3,23 @@ import "../styles/variables.css";
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="fr">
       <head>
         <title>Jungle Gym Academy</title>
 
         <meta
           name="description"
-          content="Jungle Gym Academy – Training in boxing, Muay Thai, MMA, no-gi Brazilian Jiu-Jitsu, and fitness for all levels."
+          content="Sports de combat et fitness en plein cœur de Bordeaux."
         />
 
-        {/* Open Graph (Facebook & others) */}
+        {/* Open Graph (Facebook & autres) */}
         <meta property="og:title" content="Jungle Gym Academy" />
         <meta property="og:url" content="https://www.junglegymacademy.com" />
         <meta property="og:site_name" content="Jungle Gym Academy" />
         <meta property="og:type" content="website" />
         <meta
           property="og:description"
-          content="Train in boxing, Muay Thai, MMA, no-gi BJJ, and fitness with expert coaches in a welcoming, high-energy environment."
+          content="Sports de combat et fitness en plein cœur de Bordeaux."
         />
         <meta property="og:image" content="/JGA-social-image.png" />
         <meta property="og:image:secure_url" content="/JGA-social-image.png" />
@@ -32,14 +32,14 @@ export default function RootLayout({ children }) {
         <meta name="twitter:title" content="Jungle Gym Academy" />
         <meta
           name="twitter:description"
-          content="Boxing, Muay Thai, MMA, no-gi BJJ & fitness. Join Jungle Gym Academy and push your limits."
+          content="Sports de combat et fitness en plein cœur de Bordeaux."
         />
         <meta name="twitter:image" content="/JGA-social-image.png" />
 
         {/* SEO */}
         <meta
           name="keywords"
-          content="Jungle Gym Academy, boxing, Muay Thai, MMA, BJJ, no-gi, fitness, combat sports, training"
+          content="Jungle Gym Academy, Bordeaux, boxing, boxe, Muay Thai, MMA, BJJ, no-gi, fitness, sports de combat, entraînement"
         />
         <meta name="theme-color" content="#000000" />
 
