@@ -14,7 +14,7 @@ const MobileMenu = ({ isMenuOpen }) => {
         </CallToAction>
         <CallToAction
           mobileMenu
-          href="https://www.instagram.com/jungle_gym_academy/"
+          href="https://www.instagram.com/junglegymacademy/"
         >
           Instagram
         </CallToAction>
