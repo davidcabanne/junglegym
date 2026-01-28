@@ -10,10 +10,10 @@ const Hero = () => {
   return (
     <div className={styles.container}>
       <div style={{ color: "var(--light-green)", zIndex: -1 }}>
-        OUVERTURE PROCHAINE
+        LA JUNGLE GYM
       </div>
-      <div style={{ zIndex: -1 }}>DE LA JUNGLE GYM</div>
-      <div style={{ zIndex: -1 }}>Academy</div>
+      <div style={{ zIndex: -1 }}>ACADEMY EST</div>
+      <div style={{ zIndex: -1 }}>OUVERTE!</div>
       <Palm />
       <Pear />
       <FightClub />
