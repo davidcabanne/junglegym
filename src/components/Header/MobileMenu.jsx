@@ -10,7 +10,7 @@ const MobileMenu = ({ isMenuOpen }) => {
           mobileMenu
           href="https://docs.google.com/forms/d/e/1FAIpQLScDdcDpIJf1UPcmDsHExsxG-LNnlxVxIlyX8mu9Qm-TR6xaSA/viewform"
         >
-          Pré-inscription
+          Inscription
         </CallToAction>
         <CallToAction
           mobileMenu

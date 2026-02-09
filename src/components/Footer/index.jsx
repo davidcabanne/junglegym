@@ -9,7 +9,7 @@ const Footer = () => {
         color="lightGreen"
         href="https://docs.google.com/forms/d/e/1FAIpQLScDdcDpIJf1UPcmDsHExsxG-LNnlxVxIlyX8mu9Qm-TR6xaSA/viewform"
       >
-        PRÉ-INSCRIPTION
+        INSCRIPTION
       </CallToAction>
       <CallToAction
         color="light"

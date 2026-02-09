@@ -45,7 +45,7 @@ const Header = () => {
         color="lightGreen"
         href="https://docs.google.com/forms/d/e/1FAIpQLScDdcDpIJf1UPcmDsHExsxG-LNnlxVxIlyX8mu9Qm-TR6xaSA/viewform"
       >
-        Pré-Inscription
+        Inscription
       </CallToAction>
       <Burger handleToggleMenu={handleToggleMenu} isMenuOpen={isMenuOpen} />
       <MobileMenu isMenuOpen={isMenuOpen} />
